@@ -154,12 +154,12 @@ body {
 }
 
 .tierViewer {
-  flex: 1;
-  min-width: 120px;
+  flex: 1 1 160px;
+  min-width: 160px;
   text-align: center;
   border: 2px solid #eee;
   border-radius: 10px;
-  padding: 10px;
+  padding: 12px;
   background: #fafafa;
   color: black;
 }
@@ -182,7 +182,7 @@ body {
 
 .itemDisplay img {
   margin: 5px 0;
-  width: 100px;
+  width: 130px;
   border-radius: 6px;
   cursor: pointer;
   transition: 0.2s;
@@ -480,4 +480,9 @@ body.start-screen {
   justify-content: flex-start;
 }
 
+}
+
+#itemOptions {
+  flex: 1;
+  overflow-y: auto;
 }
