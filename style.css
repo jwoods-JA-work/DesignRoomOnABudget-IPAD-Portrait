@@ -418,7 +418,7 @@ body.start-screen {
 .mainArea {
   grid-template-columns: 1fr;
 
-  grid-template-rows: 45% 55%;
+  grid-template-rows: 55% 45%;
 }
 
 /* ROOM AREA */
