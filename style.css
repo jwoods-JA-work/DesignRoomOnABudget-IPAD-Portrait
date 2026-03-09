@@ -154,12 +154,12 @@ body {
 }
 
 .tierViewer {
-  flex: 1 1 160px;
-  min-width: 160px;
+  flex: 1 1 220px;
+  min-width: 220px;
   text-align: center;
   border: 2px solid #eee;
   border-radius: 10px;
-  padding: 12px;
+  padding: 16px;
   background: #fafafa;
   color: black;
 }
@@ -182,7 +182,7 @@ body {
 
 .itemDisplay img {
   margin: 5px 0;
-  width: 130px;
+  width: 170px;
   border-radius: 6px;
   cursor: pointer;
   transition: 0.2s;
@@ -417,7 +417,8 @@ body.start-screen {
 
 .mainArea {
   grid-template-columns: 1fr;
-  grid-template-rows: 55% 45%;
+
+  grid-template-rows: 45% 55%;
 }
 
 /* ROOM AREA */
@@ -484,5 +485,10 @@ body.start-screen {
 
 #itemOptions {
   flex: 1;
-  overflow-y: auto;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 10px;
 }
